@@ -9,6 +9,7 @@ import Login from "../client/Pages/Login";
 import Home from "../client/Pages/Home";
 //CSS
 import "bootstrap/dist/css/bootstrap.min.css";
+import Dashboard from "./Pages/Dashboard/Dashboard";
 
 const App = () => {
 	return (
@@ -16,7 +17,7 @@ const App = () => {
 			<Route exact path="/" component={NavBar} />
 			<Switch>
 				<Route exact path = '/login' component={Login} />
-				<Route exact path="/" component={Home}></Route>
+				<Route exact path="/" component={Dashboard}></Route>
 			</Switch>
 		</Fragment>
 	);

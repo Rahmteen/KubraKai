@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
 	return (
 		<Fragment>
-			<Container fluid>
+			<Container>
 			</Container>
 		</Fragment>
 	);
